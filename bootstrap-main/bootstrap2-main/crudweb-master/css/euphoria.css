@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    font-family: 'Poppins', sans-serif;    
+}
+
+
+#navbar-items .navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+
+#navbar-items a {
+    color: rgb(0, 132, 255);
+    font-size: 1em;
+    margin-left: 2em;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+#container-banner {
+    margin-top: 4em;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.btn-maiseu {
+    background: rgb(121, 16, 16);
+}
+
+.navbar-brand i {
+    font-size: 2em;
+}
+
+i {
+    font-size: 3em;  
+}
+
+#container-carousel {
+    margin-top: 1em;
+}
+
+.bg-crud {
+    background:#773894;
+}
+
+.bi {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+body{
+    display: flex;
+    
+}
+
+.texto{
+    background-color: rgb(30, 0, 255);
+    border-radius: 1rem;
+}
+
+.esquerda{
+    justify-content: left;
+    align-items: baseline;
+}
+
+.accordion-item{
+    background-color:white;
+}

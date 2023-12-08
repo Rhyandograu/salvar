@@ -1,0 +1,42 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-color-header{
+    background: rgb(195, 165, 230);
+}
+
+.navbar-brand{
+    max-width: 6rem;
+}
+
+#navbar-itens .navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#slider-container{
+    margin-top: 10.6rem;
+}
+
+img{
+    height: 38rem;
+}
+
+.bi-award{
+    font-size: 3rem;
+}
+
+.bi-arrows{
+    font-size: 3rem;
+}
+
+.bi-balloon{
+    font-size: 3rem;
+}
+
+.bi-align-end{
+    font-size: 3rem;
+}

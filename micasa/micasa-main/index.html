@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>projeto Mi casa</title>
+
+    <!--google fonts roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <!--bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!--bootstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!--css do projeto-->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg fixed-top bg-color-header">
+        <section class="container py-3">
+            <a href="#" class="navbar-brand">
+                <img class="img-fluid" src="./images/lar.png" alt="logo">
+                <spam>Mi casa</spam>
+            </a>
+            <button 
+                type="button"
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbar-items"
+                aria-controls="navbar-items"
+                aria-expanded="false"
+                aria-label="Navegação resumida"
+                >
+                <i-bi class="bi-list"></i-bi>
+            </button>
+            
+            <section class="collapse navbar-collapse" id="navbar-items">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" >home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">dicas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">contato</a>
+                    </li>
+                </ul>
+            </section>
+        </section>
+    </nav>
+
+</header>
+<body>
+
+    <section class="container" id="slider-container">
+        <section class="carousel slide" id="slider" data-bs-interval="3500" data-bs-ride="carousel">
+            <section class="carousel-indicators">
+                <button
+                    type="button"
+                    class="active"
+                    data-bs-target="#slider"
+                    data-bs-slide-to="0"
+                    aria-current="true"
+                    aria-label="Slide 1">
+                </button>
+
+                <button
+                    type="button"
+                    data-bs-target="#slider"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2">
+                </button>
+
+                <button
+                    type="button"
+                    data-bs-target="#slider"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3">
+                </button>
+
+                <button
+                    type="button"
+                    data-bs-target="#slider"
+                    data-bs-slide-to="3"
+                    aria-label="Slide 4">
+                </button>
+            </section>
+
+            <section class="carousel-inner">
+                <section class="carousel-item active">
+                    <img src="./images/cyberpunk2077.jpg" alt="Imagem 1" class="d-block w-100">
+                    <section class="carousel-caption">
+                        <h5>Imagem</h5>
+                        <a href="#" class="btn btn-dark">Veja mais</a>
+                    </section>
+                </section>
+
+                <section class="carousel-item">
+                    <img src="./images/gta v.jpeg" alt="Imagem 2" class="d-block w-100">
+                    <section class="carousel-caption">
+                        <h5></h5>
+                        <a href="#" class="btn btn-dark">Veja mais</a>
+                    </section>
+                </section>
+
+                <section class="carousel-item">
+                    <img src="./images/skyrim.jpeg" alt="Imagem 3" class="d-block w-100">
+                    <section class="carousel-caption">
+                        <a href="#" class="btn btn-dark">Veja mais</a>
+                    </section>
+                </section>
+
+                <section class="carousel-item">
+                    <img src="./images/terraria.jpg" alt="Imagem 4" class="d-block w-100">
+                    <section class="carousel-caption">
+                        <a href="#" class="btn btn-dark">Veja mais</a>
+                    </section>
+                </section>
+                
+            </section>
+       
+       
+    </section>
+    
+    <section class="col-12" id="mini-banner">
+        <section class="row">
+            <section class="col-3">
+                <section class="card text-center">
+                    <i class="bi bi-award"></i>
+                    <section class="card-body">
+                        <h1>Primeiro Jogo</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, repellat?</p>
+                        <a href="#" class="btn btn-dark">Veja aqui</a>
+                    </section>
+                </section>
+            </section>
+
+            <section class="col-3">
+                <section class="card text-center">
+                    <i class="bi bi-arrows"></i>
+                    <section class="card-body">
+                        <h1>Segundo Jogo</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, repellat?</p>
+                        <a href="#" class="btn btn-dark">Veja aqui</a>
+                    </section>
+                </section>
+            </section>
+
+            <section class="col-3">
+                <section class="card text-center">
+                    <i class="bi bi-balloon"></i>
+                    <section class="card-body">
+                        <h1>Terceiro Jogo</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, repellat?</p>
+                        <a href="#" class="btn btn-dark">Veja aqui</a>
+                    </section>
+                </section>
+            </section>
+            
+            <section class="col-3">
+                <section class="card text-center">
+                    <i class="bi bi-align-end"></i>
+                    <section class="card-body">
+                        <h1>Quarto Jogo</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, repellat?</p>
+                        <a href="#" class="btn btn-dark">Veja aqui</a>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </section>
+</section>
+<!--bootstrap js-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous" defer></script>
+</body>
+</html>
